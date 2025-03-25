@@ -43,7 +43,7 @@ To setup the development environment identical to the one in which this LLM was 
 - **python -m ipykernel install --user --name=gpu_kernel --display-name "gpu kernel"**
 - Creates a Jupyter kernel named gpu_kernel using the virtual environment.
 - --display-name "gpu kernel" sets how the kernel appears in Jupyter Notebook.
-- After this, you can open Jupyter and select "gpu kernel" in running notebooks.
+- After this, you can open Jupyter and select "gpu kernel" as your notebook kernel.
 
 Once completed your machine should be ready for testing and development.
 
