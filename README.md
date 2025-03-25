@@ -20,7 +20,7 @@ To setup the development environment identical to the one in which this LLM was 
 - **python -m venv VirtualEnv**
 - This creates a virtual environment named VirtualEnv.
 - A virtual environment isolates dependencies from the system Python installation, ensuring your project has a controlled environment.
-- Be sure to activate the virtual environment using "source VirtualEnv/bin/activate".
+- Be sure to activate the virtual environment using **source VirtualEnv/bin/activate**.
 
 2. Install Required Python Libraries
 - **pip install matplotlib numpy pylzma ipykernel jupyter**
@@ -43,7 +43,7 @@ To setup the development environment identical to the one in which this LLM was 
 - **python -m ipykernel install --user --name=gpu_kernel --display-name "gpu kernel"**
 - Creates a Jupyter kernel named gpu_kernel using the virtual environment.
 - --display-name "gpu kernel" sets how the kernel appears in Jupyter Notebook.
-- After this, you can open Jupyter and select "gpu kernel" when running notebooks.
+- After this, you can open Jupyter and select "gpu kernel" in running notebooks.
 
 Once completed your machine should be ready for testing and development.
 
