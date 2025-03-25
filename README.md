@@ -2,7 +2,7 @@
 
 Note: this project is based on the tutorial posted by freeCodeCamp.org (https://www.youtube.com/watch?v=UU1WVnMk4E8). 
 
-While much of the setup and code is original I do not claim full ownership, this project is for learning purposes only.
+I do not claim full ownership.
 
 ## Setup
 
