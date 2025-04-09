@@ -48,3 +48,31 @@ To setup the development environment identical to the one in which this LLM was 
 Once completed your machine should be ready for testing and development.
 
 To launch jupyter, use the command **jupyter notebook**.
+
+## Overview
+
+This repo contains multiple models, data files, example work, and data extractors.
+
+All of which are useful and/or were used in the making & understanding of this LLM.
+
+The Bigram Language Model is the foundation for our GPT model and was the first to be created.
+
+The Bigram is trained on the Wizard of Oz .txt file and operates, well, poorly.
+
+It is easy to play with and train the Bigram model and requires no setup further than the above steps.
+
+The GPT model is a little more tedious.
+
+The GPT is trained on the openwebtext corpus which can be downloaded from this link: https://huggingface.co/datasets/Skylion007/openwebtext
+
+You will need the data extractors in this repo to extract the contents from openwebtext's .xz files.
+
+As you may have guessed that is what the GPT model is trained on, just like chatGPT 2.0.
+
+These models are rich with comments, many of which explaining function, purpose, or just general instruction.
+
+Take your time to explore and train models of your own, just remember you need the aforementioned virtual environment and dataset (not included in repo).
+
+Cheers!
+
+Will
