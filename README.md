@@ -67,11 +67,13 @@ The GPT is trained on the openwebtext corpus which can be downloaded from this l
 
 You will need the data extractors in this repo to extract the contents from openwebtext's .xz files.
 
-As you may have guessed that is what the GPT model is trained on, just like chatGPT 2.0.
+This is the same dataset chatGPT 2.0 was trained on (cool!).
 
 These models are rich with comments, many of which explaining function, purpose, or just general instruction.
 
-Take your time to explore and train models of your own, just remember you need the aforementioned virtual environment and dataset (not included in repo).
+Take your time to explore and train models of your own, just remember you need the aforementioned virtual environment and dataset.
+
+(not included in repo)
 
 Cheers!
 
