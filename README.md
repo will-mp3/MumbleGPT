@@ -51,22 +51,21 @@ To launch jupyter, use the command **jupyter notebook**.
 
 ## Overview
 
-This repo contains multiple models, data files, example work, and data extractors.
+MumbleGPT is a rendition of a generative pre-trained-transformer with a couple "fun" distinctions.
+First, it is NOT a state of the art model, I made this model during finals week senior year on a four year old macbook.
+As the name suggests, it does not speak exceptionally well.
 
-All of which are useful and/or were used in the making & understanding of this LLM.
+Hence the name: MumbleGPT.
 
-The GPT is trained on the openwebtext corpus which can be downloaded from this link: https://huggingface.co/datasets/Skylion007/openwebtext
+While it may pale in comparison to the ever evolving chatbot overlords, it is still quite interesting.
+There are four files of note in this repository: training.py, model.py, gui.py, and fix_model.py.
+- training.py comes directly from the course linked above and is used to build and train our GPT model, the code is verbose and includes enough comments to learn its inner workings top to bottom.
+- model.py is a combination of training.py and my own code, its purpose is to load and deploy our model either through the command line or the included gui.
+- gui.py is my own creation and builds upon the model in the form of a gui so that its capability may be better observed (outside of the command line).
+- fix_model.py is also my own creation, and was unfortunately necesary due to how the model was originally pickled when created, this script refactors the model so that it may be used in our gui.
 
-You will need the data extractors in this repo to extract the contents from openwebtext's .xz files.
-
-This is the same dataset chatGPT 2.0 was trained on (cool!).
-
-These models are rich with comments, many of which explaining function, purpose, or just general instruction.
-
-Take your time to explore and train models of your own, just remember you need the aforementioned virtual environment and dataset.
-
-(not included in repo)
-
-Cheers!
+This was such a fun project to build and the information I learned from it has been invaluable to me.
+Setup will be annoying, and honestly I dont really recommend it.
+Instead, check out my demo available on my portoflio site, you will find the link to that on my profiles README.
 
 Will
