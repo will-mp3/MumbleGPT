@@ -1,4 +1,4 @@
-# DIY-Large-Language-Model
+# MumbleGPT
 
 Note: this project is based on the tutorial posted by freeCodeCamp.org (https://www.youtube.com/watch?v=UU1WVnMk4E8). 
 
@@ -54,14 +54,6 @@ To launch jupyter, use the command **jupyter notebook**.
 This repo contains multiple models, data files, example work, and data extractors.
 
 All of which are useful and/or were used in the making & understanding of this LLM.
-
-The Bigram Language Model is the foundation for our GPT model and was the first to be created.
-
-The Bigram is trained on the Wizard of Oz .txt file and operates, well, poorly.
-
-It is easy to play with and train the Bigram model and requires no setup further than the above steps.
-
-The GPT model is a little more tedious.
 
 The GPT is trained on the openwebtext corpus which can be downloaded from this link: https://huggingface.co/datasets/Skylion007/openwebtext
 
