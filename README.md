@@ -1,4 +1,4 @@
-# MumbleGPT
+# Micro GPT
 
 Note: this project is based on the tutorial posted by freeCodeCamp.org (https://www.youtube.com/watch?v=UU1WVnMk4E8). 
 
